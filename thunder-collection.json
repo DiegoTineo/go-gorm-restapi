@@ -1,0 +1,117 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "go api",
+    "collectionId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+    "dateExported": "2024-09-23T05:21:38.356Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3f3060b4-b36c-45c9-9b20-4c0533f75a79",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "crear usuario",
+            "url": "http://localhost:8080/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-23T04:00:05.480Z",
+            "modified": "2024-09-23T04:21:51.983Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firs_name\": \"diego\",\n  \"last_name\": \"tineo\",\n  \"email\": \"correo2@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "23630938-85e6-4b5d-a467-cbfd6c95fa93",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "obtener usuario",
+            "url": "http://localhost:8080/users/3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-23T04:00:41.114Z",
+            "modified": "2024-09-23T04:29:12.233Z",
+            "headers": []
+        },
+        {
+            "_id": "3203d951-2ff9-4c80-882a-bd0cb68a693e",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "crear tarea",
+            "url": "http://localhost:8080/tasks",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-23T04:54:05.818Z",
+            "modified": "2024-09-23T05:05:55.211Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Tarea 2\",\n  \"description\": \"segunda tarea creada\",\n  \"user_id\": 3\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3d90c1a6-d7da-462a-82ea-f4e50e59bd4d",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "eliminar usuario",
+            "url": "http://localhost:8080/users/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-09-23T04:01:50.867Z",
+            "modified": "2024-09-23T04:02:07.579Z",
+            "headers": []
+        },
+        {
+            "_id": "01e2d988-82ce-441b-a411-eae6a3ad7e5b",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "obtener tarea",
+            "url": "http://localhost:8080/tasks/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-23T04:54:44.676Z",
+            "modified": "2024-09-23T05:08:29.482Z",
+            "headers": []
+        },
+        {
+            "_id": "f8f56fb4-751e-49ae-8c2c-96ef1115be65",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "eliminar tarea",
+            "url": "http://localhost:8080/tasks/1",
+            "method": "DELETE",
+            "sortNum": 35000,
+            "created": "2024-09-23T04:56:16.783Z",
+            "modified": "2024-09-23T05:12:16.301Z",
+            "headers": []
+        },
+        {
+            "_id": "68624813-4715-44fc-9aa5-dece1eabc827",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "obtener usuarios",
+            "url": "http://localhost:8080/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-23T04:02:20.735Z",
+            "modified": "2024-09-23T04:25:56.717Z",
+            "headers": []
+        },
+        {
+            "_id": "9545c549-a10f-458a-983c-5da25cb86b7b",
+            "colId": "55b2e0c4-fbbb-469a-8944-23d23bad41be",
+            "containerId": "",
+            "name": "obtener tareas",
+            "url": "http://localhost:8080/tasks",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-09-23T04:56:37.746Z",
+            "modified": "2024-09-23T04:57:11.181Z",
+            "headers": []
+        }
+    ],
+    "ref": "TkaCGZ4Age3_Fmu2RD6msoeRYA5WRyhZ7oAaEBnKReWqoD1P1vyJKISzWwNv-RifZ2RZ---Z9Fglst_XQfvUrg"
+}

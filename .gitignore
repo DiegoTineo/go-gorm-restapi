@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (not needed with Go modules)
+#vendor/  # Comment out if using Go modules
+
+# Go workspace file (not relevant for Go modules)
+#go.work  # Comment out if using Go modules
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sql
+
+# Environment variables
+.env
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp/
+
+# Go specific files (already included in your list)
+go.mod
+go.sum
+
+# Additional suggestions
+*.cache/  # Ignore cache directories
+ *.pyc     # Ignore Python bytecode files (if applicable)
